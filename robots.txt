@@ -1,0 +1,4 @@
+User-agent: *
+Sitemap:http://http://latempete-graal.com/sitemap.xml
+Disallow: /images
+Disallow: /css

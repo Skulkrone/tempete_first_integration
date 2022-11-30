@@ -1,0 +1,1043 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: avenir;
+    src: url(../fonts/Avenir.ttc);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: Great Vibes, Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    color:#fff;
+}
+
+h4 {
+    text-align: center;
+    color: #414042;
+    font-family: 'Myriad Pro Regular';
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+h4 a {
+    text-decoration: none;
+    color: #414042;
+}
+
+
+/*------------------------------------*\
+    BANDEAU COOKIES
+\*------------------------------------*/
+.cookie_banner {
+    width: 100%;
+    background: #32405b;
+    background: rgba(50, 64, 91, 0.7);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 13px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 600;
+}
+
+.cookieContainer {
+    height: 50px;
+    line-height: 50px;
+}
+
+.cookieContainer a {
+    text-decoration: none;
+    color:#ffcc66;
+}
+
+.cookieContainer a:hover {
+    color:#32405b;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background: #32405b;
+    color :#fff;
+}
+
+button:hover {
+    background: #ffcc66;
+    color:#fff;
+}
+
+/*------------------------------------*\
+    MENU
+\*------------------------------------*/
+
+header{
+    background: #0d101f;
+    width:100%;
+    height:190px;
+    border-bottom:4px solid #ffcc66;
+    padding-bottom: 10px;
+
+}
+
+header h1 {
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+
+header p {
+    font-size: 1.5em;
+    font-family: arial;
+    color: #fff;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color:#fff;
+}
+
+header span {
+    font-size: 5em;
+    font-family: Garamond;
+}
+
+.spectacle{
+    background-image:url(../images/ile_theatral.jpg);
+    background-repeat:no-repeat;
+    /* background-size:cover; */
+    width:100%;
+    height:1363px;
+    border-bottom:4px solid #ffcc66;
+}
+
+
+ul.menu{
+    list-style-type: none;
+    display: flex;
+    text-align:center;
+}
+
+.menu li{
+    flex-grow:1;
+}
+
+.menu li a{
+    color:#ffcc66;
+    text-decoration:none;
+    font-family:Arial;
+    line-height: 68px;
+    text-align:center;
+    letter-spacing: 2px;
+    font-size: 1vw;
+    font-weight: lighter;
+}
+
+.menu li a:hover{
+    color:#fff;
+    border-bottom: 2px solid #fff;
+}
+
+article {
+    padding: 150px 0px;
+}
+
+article h2 {
+    font-family: Great Vibes, Arial, Helvetica, sans-serif;
+    font-size: 5em;
+}
+
+article p {
+    font-size: 4em;
+}
+
+article p, article h2 {
+    text-align: center;
+    color: #fff;
+}
+
+span {
+    font-size: 0.5em;
+}
+
+
+/*------------------------------------*\
+    COMEDIENS & SPECTACLE
+\*------------------------------------*/
+
+section.texte {
+    padding: 70px 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+section.texte a {
+    text-decoration: none;
+    font-size:1.5em;
+    color:#333366;
+}
+
+section.texte a:hover {
+    color:#ffcc66;
+}
+
+section.texte hr {
+    width: 5%;
+    position: absolute;
+    left:900px;
+    top:110px;
+    color:#ffcc66;
+}
+
+.feerie{
+    background-image:url(../images/nature-wallpaper-7461792_1920.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+}
+div.form {
+    padding-top: 50px;
+}
+
+div.form img {
+    transition:0.8s;
+}
+
+div.form img:hover {
+    transform:rotate(360deg);
+}
+
+section.fantastique{
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+}
+
+.jaune {
+    width:50%;
+    height:300px;
+    background-color:#ffcc66;
+}
+
+.jaune2 {
+    width:50%;
+    height:400px;
+    background-color:#ffcc66;
+    display: flex;
+    flex-direction:column;
+}
+
+.jaune2 p {
+
+   font-family: arial;
+   font-size: 1.2em;
+}
+
+.jaune h2, .jaune2 h2 {
+    text-align: center;
+    line-height: 100px;
+    padding-top:50px; 
+    color:#000;
+}
+.blanche{
+    width:50%;
+    height:300px;
+    background-color:#fff;
+    display: flex;
+    align-items:center;
+}
+
+.blanche2 {
+    background:url(../images/fond_theatral.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    width: 50%;
+    height: 400px;
+}
+.blanche .total{
+    width: 300px;
+    padding: 60px;
+}
+
+.txt h2{
+    font-family: arial;
+    font-size: 2em;
+    color:#000;
+}
+
+div.txt {
+    width: 70%;
+    margin: 30px auto;
+}
+
+div.text {
+    text-align: center;
+    width: 90%;
+    margin: 30px;
+}
+div.texte2 {
+    width: 90%;
+    padding: 30px;
+}
+
+.blanche .total .p {
+    font-family: 'avenir', arial;
+    font-size: 1.3em;
+    color:#0d101f;
+
+}
+
+.feerie .total{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.feerie .total .titre{
+margin-top:60px; 
+}
+
+.text p {
+    font-family: avenir, arial;
+    font-size: 1.2em;
+    text-align: left;
+    color:#fff;
+}
+
+.feerie .total .txt p{
+    width:400px;
+    font-family: avenir, arial;
+    font-size: 1.2em;
+    text-align: left;
+    color:#fff;
+    margin: 40px 30px 0px 0px;
+}
+
+
+
+/*------------------------------------*\
+    SPECTACLE
+\*------------------------------------*/
+
+
+
+div.vide {
+    background-image:url(../images/Cannon-Beach.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article.begin {
+    width: 40%;
+    background: #f9c54f;
+    padding: 30px;
+    text-align: center;
+}
+
+
+article.begin h3 {
+    font-size: 1.8em;
+}
+
+article.begin p {
+    font-family: avenir, arial;
+    font-size: 1.2em;
+    color: #333;
+}
+ article.end p {
+    font-family: avenir, arial;
+    font-size: 1.2em;
+    color: #f1f1f1;
+    background: rgba(0,0,0,0.3);
+}
+
+article.end {
+    width: 50%;
+    margin-top: 450px;
+}
+
+article.end h2 {
+    font-family: Great Vibes, Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    color:#000;
+}
+
+div.content {
+    padding: 30px;
+    display: flex;
+    justify-content:space-around;
+    display: none;
+    flex-wrap:wrap;
+}
+
+.enveloppe{
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.enveloppe li{
+    width: 270px;
+    height: 170px;
+    padding: 80px 0;
+    margin: 0 40px 40px 40px;
+}
+
+.enveloppe li p{
+    text-align: center;
+}
+
+.item1 {
+    width: 260px;
+    height: 260px;
+    transition:1s;
+    position: relative;
+}
+
+.block1{
+    background-image: url(../images/1.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.block2{
+    background-image: url(../images/2.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.block3{
+    background-image: url(../images/3.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.block4{
+    background-image: url(../images/4.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.block5{
+    background-image: url(../images/5.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.block6{
+    background-image: url(../images/6.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.block7{
+    background-image: url(../images/7.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.block8{
+    background-image: url(../images/8.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.block9{
+    background-image: url(../images/9.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.block10{
+    background-image: url(../images/10.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.block11{
+    background-image: url(../images/11.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.block12{
+    background-image: url(../images/12.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.block13{
+    background-image: url(../images/13.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.block14{
+    background-image: url(../images/14.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.block15{
+    background-image: url(../images/15.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.block16{
+    background-image: url(../images/16.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.block17{
+    background-image: url(../images/17.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.block18{
+    background-image: url(../images/18.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.block19{
+    background-image: url(../images/19.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.block20{
+    background-image: url(../images/20.png);
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.info{
+    background-color: #d5d5d5;
+    opacity: 0;
+    transform: scale(0);
+    transition:1s;
+    font-family: 'avenir';
+    position: absolute;
+    top:10px;
+    right: 10px;
+    bottom: 10px;
+    left:10px;
+}
+.info p{
+    color: #000;
+    text-align: center;
+    line-height: 1em;
+    font-weight: 700;
+}
+.item1:hover .info{
+    opacity: 0.7;
+    transform: scale(1);
+}
+.responsive {
+    display: none;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.responsive h3, .responsive p {
+    color:#000;
+}
+
+section.content {
+    background-image:url(../images/vivant_02.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+    width:100%;
+    height:763px;
+    display: flex;
+    flex-wrap:wrap;
+    align-items:flex-end;
+}
+
+
+
+.rond {
+    margin: auto ;
+    width: 50px;
+    height: 50px;
+    border:8px solid #fff; 
+    border-radius: 50%;
+    display: flex;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.rond p, .rond h3 {
+    display: none;
+
+}
+
+.rond1 {
+    background:#fff ;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 15px;
+}
+.gros {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    background:#fff ;
+    margin: auto;
+}
+
+.gros p, .gros h3 {
+    padding: 70px 0 70px 30px;
+    font-family: sans-serif;
+    line-height: 50px;
+    font-size: 2.5em;
+    display: inline-block;
+}
+
+/*------------------------------------*\
+    TROUPE
+\*------------------------------------*/
+
+section.troupe {
+    display: flex;
+    flex-direction:column;
+}
+
+section.troupe h2 {
+    font-family: Great Vibes, Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    padding: 70px 0;
+    color:#000;
+    margin: auto;
+    text-align: center;
+}
+section.troupe h2 span {
+    font-size: 2em;
+}
+
+section.troupe p {
+    width: 98%;
+    color:#000;
+    font-family: Helvetica;
+    font-size: 1.2em;
+    margin: auto 30px;
+    padding: 70px 0px;
+}
+
+section.middle {
+    background: rgba(50,64,91,0.7);
+    height: auto;
+}
+
+section.middle h2 {
+    font-family: Great Vibes, Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    color:#fff;
+    text-align: center;
+    line-height: 100px;
+}
+
+section.middle h3 {
+    font-size: 1.6em;
+    color:#000;
+    text-align: center;
+}
+
+section.middle span {
+    font-size: 1.5em;
+}
+
+section.middle p {
+    text-align: center;
+    color:#000;
+    font-size:1.2em;
+}
+
+section.middle p.para {
+    text-align: center;
+    color:#fff;
+    font-size:1.2em;
+}
+
+article.picto {
+    padding: 70px 0;
+    display: flex;
+    flex-wrap:wrap;
+}
+.item {
+    width: 260px;
+    height: 260px;
+    /*box-shadow: 10px 5px 5px rgba(255,255,255,0.5);*/
+    transition:1s;
+    transform: scale(1);
+    position: relative;
+}
+.bloc1 {
+    background-image: url(../images/Lumière.png);
+    background-position: center center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+.bloc2 {
+    background-image: url(../images/effets_speciaux.png);
+    background-position: center center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+.bloc3 {
+    background-image: url(../images/Son.png);
+    background-position: center center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+.bloc4 {
+    background-image: url(../images/Costumier.png);
+    background-position: center center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+.bloc5 {
+    background-image: url(../images/coiffeuse.png);
+    background-position: center center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+.bloc6 {
+    background-image: url(../images/maquillage.png);
+    background-position: center center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+.info1 {
+    background-color: #fff;
+    opacity: 0;
+    transform: scale(0);
+    transition:1s;
+    position: absolute;
+    top:10px;
+    right: 10px;
+    bottom: 10px;
+    left:10px;
+}
+.info1 p{
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.item:hover .info1 {
+    opacity: 0.8;
+    transform: scale(1);
+}
+
+section.history {
+    background: url(../images/tempete-troupeT_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 310vh;
+}
+
+section.history a {
+    text-decoration: none;
+}
+
+section.history h2:hover {
+    color:#ffcc66;
+}
+
+section.history h2 {
+    font-family: Great Vibes, Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    height: 100px;
+    line-height: 110px;
+    background: rgba(255,255,255,0.4);
+    color:#000;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+section.histoire {
+    display: flex;
+}
+
+article.histoiregauche {
+    width:50%;
+    border-right: 20px solid #32405b;
+    padding: 0;
+}
+
+article.histoiredroite {
+    width:50%;
+    padding: 110px 0;
+}
+
+article.histoiregauche h4, article.histoiredroite h4 {
+    font-family: Helvetica;
+    font-weight: 800;
+    font-size: 2em;
+    color:#32405b;
+}
+
+article.histoiregauche h4 span, article.histoiredroite h4 span {
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+
+article.histoiregauche p, article.histoiredroite p {
+    font-size: 0.8em;
+    color:#32405b;
+}
+
+/*------------------------------------*\
+    PARTENAIRES
+\*------------------------------------*/
+
+section.partenaires {
+    width: 100%;
+}
+
+article.presentation {
+    background: #ffcc66;
+    text-transform: uppercase;
+    font-family: Helvetica;
+    font-size: 1.5em;
+    height: 100px;
+    line-height: 50px;
+    text-align: center;
+    padding: 70px 0;
+}
+
+article.prive, article.map {
+    background-image:url(../images/nature-wallpaper-7461792_1920.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position-y: top;
+    width:100%;
+    height: 650px;
+    text-align: center;
+    color:#fff;
+}
+
+article.prive h3, article.public h3 {
+    font-size: 3.5em;
+}
+
+article.prive p, article.public p {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+article.public p {
+    color:#000;
+}
+
+div.partprive, div.partpublic {
+    display: flex;
+    justify-content:space-around;
+    padding-top: 100px;
+}
+
+div.partprive a, div.partprive img {
+    width: 30%;
+}
+
+div.partpublic a, div.partpublic img {
+    width: 50%;
+}
+
+article.public {
+    background-image:url(../images/fraser.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height: 850px;
+    text-align: center;
+    color:#000;
+}
+
+/*------------------------------------*\
+    CONTACT
+\*------------------------------------*/
+
+section.contact {
+    width: 100%
+}
+
+article.renseigner {
+    background: #ffcc66;
+    font-family: Helvetica;
+    height: 350px;
+    line-height: 30px;
+    text-align: center;
+    padding: 70px 0;
+}
+
+article.renseigner p {
+    font-size: 1.4em;
+    color:#000;
+}
+
+article.renseigner a {
+    text-decoration: none;
+    color:#000;
+}
+
+article.renseigner a:hover {
+    color:#fff;
+}
+
+article.contacter {
+    background-image:url(../images/dahlberg.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height: 650px;
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+article.contacter h6 {
+    color:#0d101f;
+    font-family: Helvetica;
+    font-size: 3.5em;
+}
+
+article.contacter a {
+    text-decoration: none;
+}
+
+article.contacter h6:hover {
+    color: #ffcc66;
+}
+
+fieldset {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+    border: none;
+}
+input[type="email"]{
+    width: 51%;
+    background-color: rgba(255,255,255,0.5);
+    font-size: 1.8em;
+    border:2px solid #ffcc66;
+    padding: 10px;
+}
+input[type="submit"]{
+    background-color:#ffcc66;
+    width:10%;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    border:2px solid #fff;
+}
+input[type="submit"]:hover {
+    background-color:#0d101f;
+    color:#fff;
+}
+textarea{
+    background-color: rgba(255,255,255,0.5);
+    font-family: Helvetica;
+    padding: 20px;
+    width:50%;
+    height:250px;
+    border: 2px solid #ffcc66;
+}
+iframe {
+    width:1000px; 
+    height:650px;
+    border:none;
+}
+
+/*------------------------------------*\
+   MENTIONS LEGALESS
+\*------------------------------------*/
+
+section.mentions {
+    background: url(../images/tempete-troupeT_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.mentions .main-text {
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 10px;
+    text-align: justify;
+}
+
+section.mentions h2 {
+    font-family: Arial;
+    font-size: 2em;
+    color: #000;
+}
+
+section.mentions a {
+    text-decoration: none;
+    color:#0d101f;
+}
+
+section.mentions a:hover {
+    color:#ffcc66;
+}
+
+/*------------------------------------*\
+    FOOTER
+\*------------------------------------*/
+
+footer {
+    background: #0d101f;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+}
+
+
+
+footer a {
+    text-decoration: none;
+    color:#ffcc66;
+    flex-grow:1;
+    text-align: center;
+}
+
+footer a:hover {
+    color:#fff;
+    border-bottom: 2px solid #ffcc66;
+}
+
+
+

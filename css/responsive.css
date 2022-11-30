@@ -1,0 +1,188 @@
+/*-----------------------------------------------------*/
+/*====RESPONSIVE===*/
+/*-----------------------------------------------------*/
+
+@media only screen and (max-width : 960px){
+
+  header {
+      width: auto;
+      height: auto;
+  }
+  header span {
+  font-size: 3em;
+  font-family: Garamond;
+  }
+  nav {
+      height: 400px;
+  }
+  ul.menu, footer {
+      width: 100%;
+      flex-direction:column;
+      text-align: center;
+  }
+  .menu li, footer a {
+      border-bottom:1px solid #ffcc66;
+  }
+  .menu li a {
+      font-size: 2em;
+  }
+  article p {
+  text-align: center;
+  font-size: 2em;
+  color: #fff;
+  }
+  article h2 {
+  text-align: center;
+  font-size: 4em;
+  color: #fff;
+  }
+  article span {
+      color: #000;
+  }
+  section.spectacle, section.feerie, section.fantastique, section.troupe, div.vide, div.total, section.partenaires, section.contact {
+      width: auto;
+      height: auto;
+      flex-direction:column;
+      font-size: 2vh;
+  }
+  article.end {
+  width: 50%;
+  margin-top: 50px;
+  }   
+  section.history {
+      height: auto;
+  }
+  section.histoire {
+      width: auto;
+      height: auto;
+      flex-direction:column;
+      padding: 70px 0;
+  }
+  .responsive {
+      display: block;
+  }
+  article.histoiregauche, article.histoiredroite {
+      height: auto;
+      border-right: none;
+      margin: 50px auto;
+
+  }
+  article.histoiregauche h4 span, article.histoiredroite h4 span {
+  font-weight: 400;
+  font-size: 0.9em;
+  }
+  section.content {
+      width: auto;
+      height: auto;
+      flex-direction:column;
+      padding-top: 110px;
+  }
+  .gros {
+      display: none;
+  }
+  .image {
+      width: 70%;
+      height: 70%;
+      margin: auto;
+  }
+  .rond {
+  display: none;
+  }
+  section.content {
+      display: flex;
+      flex-direction:column;
+      align-items:center;
+  }
+  .feerie .total .txt p{
+      width: auto;
+  }
+  hr {
+      display: none;
+  }
+  div.jaune, div.blanche, div.jaune2, div.blanche2, article.begin, article.end, .enveloppe li, article.map {
+      width: auto;
+      height: auto;
+  }
+  article.colonnes p, article.contacter h6, div.texte2, article.begin h3, div.txt, div.text  {
+      width: auto;
+      margin: 0;
+      padding: 20px;
+      margin: auto;
+      font-size: 1em;
+  }
+  .enveloppe li{
+  padding: 30px 0;
+  margin: 20px;
+  }
+  div.txt {
+      width: auto;
+      font-size: 1em;
+      margin: 0;
+
+  }
+  article.colonnes h2, div.jaune h2, div.jaune2 h2, section.troupe h2, article.end h2, section.history h2, section.middle h2 {
+      font-size: 2em;
+  }
+  article.colonnes h2 {
+      color:#fff;
+      padding-bottom: 50px;
+  }
+  section.troupe p {
+      font-size: 1em;
+  }
+  section.troupe h2, section.troupe p {
+      padding: 30px 0;
+      margin: auto;
+  }
+  .item1 {
+      box-shadow: none;
+  }
+  div.partpublic, div.partprive {
+      width: auto;
+      height: auto;
+      margin: auto;
+      flex-wrap:wrap;
+  }
+  article.presentation, article.public, article.prive, article.renseigner {
+      width: auto;
+      height: auto;
+      margin: auto;
+      margin: 0;
+      padding: 0;
+      font-size: 0.8em;
+  }
+  article.contacter {
+      height: 50px;
+  }
+  div.partprive a, div.partprive img {
+      width: 50%;
+      margin-bottom: 15px;
+  }
+
+  div.partpublic a, div.partpublic img {
+      width: 50%;
+      margin-bottom: 15px;
+  }   
+  input[type="submit"], textarea {
+      width: auto; 
+  }
+  input[type="email"] {
+      width: 91%;
+  } 
+  iframe {
+        width: auto;
+      height: auto;
+      margin: auto;
+      margin: 0;
+      padding: 0;
+  }
+  footer {
+      height: auto;
+  }
+  .mentions .main-text {
+      width: auto;
+  }
+  .cookie_banner {
+      display: none;
+  }
+}
